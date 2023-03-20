@@ -4,12 +4,11 @@ function move() {
 		function Previous() {
 			window.history.back()
         }
-
-//window.setTimeout(move(),1000);
-
 //window.setInterval(move(),1000);
 
 
 
-
+$(document).ready(function(){
+    $('.carousel').carousel();
+  });
        

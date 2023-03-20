@@ -5,10 +5,6 @@ class user{
     }
 }
 
-
-//onmouseout
-
-
 function modalOpen(){
     let Modalelem = document.querySelector('.modal');
     let instance = M.Modal.init(Modalelem);
