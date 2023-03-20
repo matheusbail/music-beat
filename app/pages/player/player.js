@@ -5,6 +5,11 @@ class user{
     }
 }
 
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+
+  });
+
 function modalOpen(){
     let Modalelem = document.querySelector('.modal');
     let instance = M.Modal.init(Modalelem);
