@@ -9,14 +9,7 @@ function move() {
 
 //window.setInterval(move(),1000);
 
-document.addEventListener('DOMContentLoaded', function () {
-   
-    let Modalelem = document.querySelector('.modal');
-    let instance = M.Modal.init(Modalelem);
-    instance.open();
- 
- 
-});
+
 
 
        
