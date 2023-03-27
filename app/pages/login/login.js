@@ -3,9 +3,9 @@ function moveP() {
 }
 
 
-document.addEventListener('DOMContentLoaded', function () {
+//document.addEventListener('DOMContentLoaded', function () {
     
-});  
+//});  
 
 let runAlert = setTimeout(function(){
     window.alert('TESTE DE TEXTO');
