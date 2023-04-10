@@ -13,3 +13,4 @@ $(document).ready(function(){
     $('.carousel').carousel('next')
   }, 2000);
 
+  $("html").css("cursor: url('cursor url with protocol'), auto");
