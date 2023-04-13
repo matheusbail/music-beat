@@ -5,9 +5,9 @@ Link para o projeto figma : https://www.figma.com/proto/WsGbCHC8cDLmjEFDwjo9j0/m
 
 Caixas de Diálogo
 
-- [ ] prompt
+- [x] prompt
 - [x] alert
-- [ ] confirm
+- [x] confirm
 
 Temporizadores
 
@@ -16,10 +16,10 @@ Temporizadores
 
 Funções
 
-- [ ] Função anônima com argumento
+- [x] Função anônima com argumento
 - [x] Função anônima sem argumento
 - [x] Função anônima com retorno
-- [ ] Função auto-executável - não será aceita a mesma do Module Pattern
+- [x] Função auto-executável - não será aceita a mesma do Module Pattern
 - [x] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
 - [ ] Passagem de uma função como parâmetro para outra função - ambas as funções precisam ser implementadas pelo aluno
@@ -30,13 +30,13 @@ Eventos
 - [x] Evento de carregamento do documento - onload
 - [x] Evento de movimento do mouse
 - [ ] Evento de teclado - usar charCode ou keyCode
-- [ ] Eventos de formulário - onfocus e onblur
+- [x] Eventos de formulário - onfocus e onblur
 - [ ] Imprimir alguma propriedade/atributo do objeto event recebido como parâmetro na função tratadora de evento
 
 Acesso aos elementos DOM do HTML
-
+    
 - [ ] Via referência DOM pelo id do elemento HTML - acesso sem uso do getElementByID ou querySelector, o id do objeto DOM é o próprio nome da variável
-- [ ] Via getElementByID()
+- [x] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
 - [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
@@ -53,13 +53,13 @@ Objetos Nativos
 - [ ] Usar pelo menos 3 métodos de manipulação de array
 - [ ] Usar laço de repetição (for..in ou for..of ou forEach)
 - [ ] Usar pelo menos 3 métodos para manipulação de string
-- [ ] String Template - a String com crase e ${}
+- [x] String Template - a String com crase e ${}
 - [ ] Manipulação do CSS de forma nativa via atributo style e classList
 
 Objetos
 
-- [ ] Criar objeto usando função construtora ou notação literal
-- [ ](Obrigatório) Criar objetos a partir da definição de classes do ES6 - a classe precisa ser definida em arquivo separado, sendo o nome do arquivo em letras minúsculas no estilo dashed-case e nome da classe em UpperCamelCase
+- [x] Criar objeto usando função construtora ou notação literal
+- [x](Obrigatório) Criar objetos a partir da definição de classes do ES6 - a classe precisa ser definida em arquivo separado, sendo o nome do arquivo em letras minúsculas no estilo dashed-case e nome da classe em UpperCamelCase
 - [ ] Usar herança prototipal nativa ou herança de classes do ES6
 
 Qualidade do código

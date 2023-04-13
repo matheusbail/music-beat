@@ -8,9 +8,18 @@ function move() {
 $(document).ready(function(){
     $('.carousel').carousel();
   });
-
+  
   setInterval(() => {
     $('.carousel').carousel('next')
   }, 2000);
 
   $("html").css("cursor: url('cursor url with protocol'), auto");
+
+
+  function teste(){
+    alert("oi");
+  }
+  let promptUsuario = function() {
+    let nome = prompt("Qual é o seu nome?");
+    alert(`Parabens, voce tem um otimo gosto musical, ${nome}!`);
+  };

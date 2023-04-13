@@ -6,30 +6,32 @@ function moveP() {
 //document.addEventListener('DOMContentLoaded', function () {
     
 //});  
+function destacarCampo(campo) {
+    campo.style.backgroundColor = "#FFFF99";
+  }
+  
+  function removerDestaqueCampo(campo) {
+    campo.style.backgroundColor = "";
+}
+
 
 let runAlert = setTimeout(function(){
     window.alert('TESTE DE TEXTO');
 },2000)
 
-
-
-
-
 function login() {
-    const email = document.getElementById("email").value;
-    const senha = document.getElementById("senha").value;
+    let email = document.getElementById("email").value;
+    let senha = document.getElementById("senha").value;
     localStorage.setItem("email", email);
     localStorage.setItem("senha", senha);
 
-    const dados = {
+    let dados = {
         email: email,
         senha: senha
       };
 
-      const dadosString = JSON.stringify(dados);
+      let dadosString = JSON.stringify(dados);
 
       localStorage.setItem("dados", dadosString);
   }
-  
-
   
