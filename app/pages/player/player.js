@@ -7,8 +7,8 @@ class user{
 
 $(document).ready(function(){
     $('.sidenav').sidenav();
-
   });
+
 
 function modalOpen(){
     let Modalelem = document.querySelector('.modal');

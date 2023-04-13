@@ -18,24 +18,27 @@
       <div class="center-align">
       <div class="center-align">
         <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
+          <input type="email" class="validate" id="email" name="email"  >
           <label for="email">Email</label>
         </div>
       </div>
       <div class="center-align">
         <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
+          <input type="password" class="validate" id="senha" name="senha"  >
           <label for="password">Senha</label>
         </div>
       </div>
-    </form>
+      <button onclick="login()"  class="btn waves-effect waves-light" type="submit" name="action">Salvar
+        <i class="material-icons right">navigate_next</i>
+      </button>
+    </form> 
   </div>
         
   <button onclick="Previous()" class="btn waves-effect waves-light" type="submit" name="action">Voltar
     <i class="material-icons left   ">navigate_before</i>
   </button>
 
-  <button onclick="moveP()" class="btn waves-effect waves-light" type="submit" name="action">Enviar
+  <button onclick="moveP()"  class="btn waves-effect waves-light" type="submit" name="action">Enviar
     <i class="material-icons right">navigate_next</i>
   </button>
       
