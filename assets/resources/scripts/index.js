@@ -1,3 +1,5 @@
+
+
 function move() {
     window.location.href = "/music-beat/app/pages/login/login.html";
 }
@@ -23,3 +25,5 @@ $(document).ready(function(){
     let nome = prompt("Qual é o seu nome?");
     alert(`Parabens, voce tem um otimo gosto musical, ${nome}!`);
   };
+
+ 

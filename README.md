@@ -21,7 +21,7 @@ Funções
 - [x] Função anônima com retorno
 - [x] Função auto-executável - não será aceita a mesma do Module Pattern
 - [x] Função com nome
-- [ ] Função aninhada/local - declarar uma função dentro de outra
+- [x] Função aninhada/local - declarar uma função dentro de outra
 - [ ] Passagem de uma função como parâmetro para outra função - ambas as funções precisam ser implementadas pelo aluno
 - [x] Função Flecha - Arrow Function
 
