@@ -16,7 +16,7 @@ Temporizadores
 
 Funções
 
-- [x] Função anônima com argumento
+- [ ] Função anônima com argumento
 - [x] Função anônima sem argumento
 - [x] Função anônima com retorno
 - [x] Função auto-executável - não será aceita a mesma do Module Pattern
