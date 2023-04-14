@@ -3,9 +3,9 @@ function moveP() {
 }
 
 
-//document.addEventListener('DOMContentLoaded', function () {
+function teste(){
     
-//});  
+}
 function destacarCampo(campo) {
     campo.style.backgroundColor = "#FFFF99";
   }
@@ -14,7 +14,7 @@ function destacarCampo(campo) {
     campo.style.backgroundColor = "";
 }
 
-
+// alert com funcao anonima retornando string
 let runAlert = setTimeout(function(){
     window.alert('TESTE DE TEXTO');
 },2000)
@@ -34,4 +34,3 @@ function login() {
 
       localStorage.setItem("dados", dadosString);
   }
-  

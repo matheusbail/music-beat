@@ -10,7 +10,7 @@ function move() {
 $(document).ready(function(){
     $('.carousel').carousel();
   });
-  
+   //arrow function para setar timeout no carousel
   setInterval(() => {
     $('.carousel').carousel('next')
   }, 2000);
@@ -21,9 +21,11 @@ $(document).ready(function(){
   function teste(){
     alert("oi");
   }
+
+  // prompt 
   let promptUsuario = function() {
     let nome = prompt("Qual é o seu nome?");
     alert(`Parabens, voce tem um otimo gosto musical, ${nome}!`);
   };
 
- 
+  
