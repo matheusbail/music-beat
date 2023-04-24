@@ -6,8 +6,7 @@ import { UserData } from "./user.js";
    
   })();
   
- 
-
+   
 $(document).ready(function(){
   $('.sidenav').sidenav();
 });

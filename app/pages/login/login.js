@@ -3,13 +3,11 @@ function moveP() {
 }
 
 
-function teste(){
-    
-}
+
 function destacarCampo(campo) {
     campo.style.backgroundColor = "#FFFF99";
   }
-  
+    
   function removerDestaqueCampo(campo) {
     campo.style.backgroundColor = "";
 }

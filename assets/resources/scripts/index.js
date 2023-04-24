@@ -6,7 +6,7 @@ function move() {
 		function Previous() {
 			window.history.back()
         }
-
+  
 $(document).ready(function(){
     $('.carousel').carousel();
   });
