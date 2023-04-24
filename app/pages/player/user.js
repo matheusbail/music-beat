@@ -4,7 +4,7 @@ export class UserData{
     this.senha = senha ;
 }
         teste(){
-            console.log(`Olá, ${this.email}`)
+            console.log(`Olá, ${this.email}`);
         }
 }
 
