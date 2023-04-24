@@ -1,6 +1,7 @@
 # music-beat
 Repositório para matéria de Desenvolvimento para Web ll, ano de 2023
 Link para o projeto figma : https://www.figma.com/proto/WsGbCHC8cDLmjEFDwjo9j0/music-beat?node-id=3%3A10&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=3%3A10
+Link para o video da primeira parte do projeto : https://www.youtube.com/watch?v=ulemUR3zVLM
 # Checkist
 
 Caixas de Diálogo
