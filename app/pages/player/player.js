@@ -1,17 +1,11 @@
-import { UserData } from "./user.js";
+import { UserData } from './user.js';
 
 // funcao anonima, e confirm
 (function() {
-    let nome = confirm("Voce gostaria de receber as novidades de musicas?");
-   
-  })();
+  let nome = confirm('Voce gostaria de receber as novidades de musicas?');}());
   
-   
 $(document).ready(function(){
-  $('.sidenav').sidenav();
-});
-
-
+$('.sidenav').sidenav();});
 // funcao aninhada e funcao automatica
 function mensagemNaTela() {
   let mensagem = "Buscando novos Lancamentos.....";
