@@ -1,3 +1,4 @@
+"use strict"
 import { UserData } from './user.js';
 
 // funcao anonima, e confirm

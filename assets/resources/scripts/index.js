@@ -1,4 +1,4 @@
-
+"use strict"
 
 function move() {
     window.location.href = "/music-beat/app/pages/login/login.html";
