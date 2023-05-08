@@ -26,6 +26,7 @@ Funções
 - [ ] Passagem de uma função como parâmetro para outra função - ambas as funções precisam ser implementadas pelo aluno
 - [x] Função Flecha - Arrow Function
 
+
 Eventos
 
 - [x] Evento de carregamento do documento - onload
@@ -33,6 +34,8 @@ Eventos
 - [ ] Evento de teclado - usar charCode ou keyCode
 - [x] Eventos de formulário - onfocus e onblur
 - [ ] Imprimir alguma propriedade/atributo do objeto event recebido como parâmetro na função tratadora de evento
+
+
 
 Acesso aos elementos DOM do HTML
     
@@ -42,12 +45,15 @@ Acesso aos elementos DOM do HTML
 - [ ] Via getElementsByTagName()
 - [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 
+
+
 Tratadores de Evento
 
 - [ ] Especificar o tratador de evento inline - registro do evento no HTML
 - [ ] Especificar o tratador de evento no modo tradicional - registro do evento no JS com prefixo on via atributo de um objeto DOM
 - [ ] Especificar o tratador de evento com a função addEventListener - registro do evento no JS
 - [ ] Usar o operador this em funções tratadoras de eventos.
+
 
 Objetos Nativos
 
@@ -56,6 +62,8 @@ Objetos Nativos
 - [ ] Usar pelo menos 3 métodos para manipulação de string
 - [x] String Template - a String com crase e ${}
 - [ ] Manipulação do CSS de forma nativa via atributo style e classList
+
+
 
 Objetos
 
@@ -72,6 +80,15 @@ Qualidade do código
 - [ ] Usar pasta assets e subpastas resources e libraries para organizar o código
 - [ ] Usar let ou const ao invés de var
 - [ ] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
+- [ ] Validação de formulário com onsubmit usando os métodos tradicionais - é a fase executada após a validação via HTML5
+- [ ] Validação de formulário com HTML5 API
+- [ ] Customizar as mensagens nos balões de mensagem
+- [ ] Usar os atributos de validação dos inputs - required ou type="email" ou outros
+- [ ] Usar expressões regulares para validação - usar no atributo pattern do respectivo input
+- [ ] Ler e escrever em elementos input com a propriedade value
+- [ ] Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
+- [ ] Manipulação de elemento de listagem, como checkbox, radio ou select
+- [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
 
 Formulário
 
@@ -91,18 +108,20 @@ jQuery
 - [ ] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
 - [ ] Uso de seletores hierárquicos dinâmicos - parent/children/next
 - [ ] Efeitos fade ou slide
-- [X] Especificar o tratador de algum evento via jQuery
+- [X] Especificar o tratador de algum evento via jQuery - deve ser um evento diferente do ready //?? checar se nao ta errado
 - [ ] Manipulação do CSS via função css() e addClass()/removeClass()
 - [ ] Manipulação do conteúdo de um input e div usando jQuery
 - [X] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
 
+
 Web Storage
 
-- [x] LocalStorage ou SessionStorage
-- [ ] Leitura e escrita de dados simples
-- [ ] Leitura e escrita de JSON
+- [ ] Leitura e escrita de dados simples - dados primivos como string, number, boolean
+- [ ] Leitura e escrita de JSON - dado transformado a partir de um objeto
+- [ ] Criar e guardar um dado em um Cookie
 
-Ajax com Backend
+Requisições assíncronas
 
-- [ ] Implementação funcional (basta fazer funcionar uma requisição) do backend em ExpressJS na plataforma Node e requisições AJAX.
-
+- [ ] Requisições AJAX para uma implementação funcional do backend em ExpressJS na plataforma Node
+- [ ] (Obrigatório) Requisições AJAX para uma API Fake - JSON Server 
+- [ ] Requisições AJAX para uma API Rest pública qualquer (Busca CEP API ou IBGE API ou outra).
