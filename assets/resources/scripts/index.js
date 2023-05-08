@@ -1,10 +1,10 @@
-"use strict"
+"use strict";
 
 function move() {
     window.location.href = "/music-beat/app/pages/login/login.html";
 }
 		function Previous() {
-			window.history.back()
+			window.history.back();
         }
   
 $(document).ready(function(){
@@ -12,15 +12,10 @@ $(document).ready(function(){
   });
    //arrow function para setar timeout no carousel
   setInterval(() => {
-    $('.carousel').carousel('next')
+    $('.carousel').carousel('next');
   }, 2000);
 
   $("html").css("cursor: url('cursor url with protocol'), auto");
-
-
-  function teste(){
-    alert("oi");
-  }
 
   // prompt 
   let promptUsuario = function() {

@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 function moveP() 
 {
     window.location.href = "/music-beat/app/pages/player/player.html";
@@ -17,7 +17,7 @@ function destacarCampo(campo) {
 // alert com funcao anonima retornando string
 let runAlert = setTimeout(function(){
     window.alert('TESTE DE TEXTO');
-},2000)
+},2000);
 
 function login() {
     let email = document.getElementById("email").value;
