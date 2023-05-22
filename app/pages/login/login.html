@@ -21,14 +21,15 @@
       <div class="center-align">
       
         <div class="input-field col s12">
-          <input type="email" class="validate" id="email" name="email" onfocus="destacarCampo(this)" onblur="removerDestaqueCampo(this)" >
+          <input type="email" class="validate" id="email" name="emailEletronico" required pattern="^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$" onfocus="destacarCampo(this)" onblur="removerDestaqueCampo(this)" >
           <label for="email">Email</label>
+          <span class="helper-text" data-error="Esse Email Nao corresponde" data-success=""></span>
         </div>
       </div>
       
       <div class="center-align">
         <div class="input-field col s12">
-          <input type="password" class="validate" id="senha" name="senha" onfocus="destacarCampo(this)" onblur="removerDestaqueCampo(this)" >
+          <input type="password" class="validate" required min="3" max="10" id="senha" name="senha" onfocus="destacarCampo(this)"  onblur="removerDestaqueCampo(this)" >
           <label for="password">Senha</label>
         </div>
       </div>
