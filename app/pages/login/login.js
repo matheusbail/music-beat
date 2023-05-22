@@ -16,7 +16,7 @@ function destacarCampo(campo) {
 
 // alert com funcao anonima retornando string
 let runAlert = setTimeout(function(){
-    window.alert('TESTE DE TEXTO');
+    window.alert('CUIDADO AO CLICAR EM POPUPS');
 },2000);
 
 function login() {
