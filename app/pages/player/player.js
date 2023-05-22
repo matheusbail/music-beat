@@ -38,3 +38,9 @@ function recuperarDados() {
 }
 // recupera dados do JSON
 recuperarDados();
+
+
+let color = sessionStorage.backgroundColor;
+  if(color){
+    document.body.style.backgroundColor = color;
+  }

@@ -23,4 +23,9 @@ $(document).ready(function(){
     alert(`Parabens, voce tem um otimo gosto musical, ${nome}!`);
   };
 
-  
+  const theme = document.getElementById('theme');
+
+  theme.addEventListener('click', function onClick(event) {
+    document.body.style.backgroundColor = 'DarkSlateGrey ';
+    sessionStorage.backgroundColor ="DarkSlateGrey";
+  });
