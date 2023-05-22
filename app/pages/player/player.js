@@ -7,6 +7,7 @@ import { UserData } from './user.js';
   
 $(document).ready(function(){
 $('.sidenav').sidenav();});
+
 // funcao aninhada e funcao automatica
 function mensagemNaTela() {
   let mensagem = "Buscando novos Lancamentos.....";
