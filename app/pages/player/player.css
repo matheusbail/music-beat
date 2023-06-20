@@ -1,0 +1,8 @@
+.audio-controls .btn-controls{
+height:50px; width:50px; border-radius:50%;
+}
+
+.audio-controls .btn-controls.play-pause-btn{
+    height:80px;
+    width:80px;
+}

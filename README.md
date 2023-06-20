@@ -33,7 +33,7 @@ Acesso aos elementos DOM do HTML
 Tratadores de Evento
 - [ ] Especificar o tratador de evento inline - registro do evento no HTML
 - [ ] Especificar o tratador de evento no modo tradicional - registro do evento no JS com prefixo on via atributo de um objeto DOM
-- [ ] Especificar o tratador de evento com a função addEventListener - registro do evento no JS
+- [x] Especificar o tratador de evento com a função addEventListener - registro do evento no JS
 - [ ] Usar o operador this em funções tratadoras de eventos.
 
 Objetos Nativos
@@ -65,7 +65,7 @@ Formulário
 - [ ] Customizar as mensagens nos balões de mensagem
 - [x] Usar os atributos de validação dos inputs - required ou type="email" ou outros
 - [x] Usar expressões regulares para validação - usar no atributo pattern do respectivo input
-- [ ] Ler e escrever em elementos input com a propriedade value
+- [x] Ler e escrever em elementos input com a propriedade value
 - [x] Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
 - [ ] Manipulação de elemento de listagem, como checkbox, radio ou select
 - [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
@@ -73,9 +73,9 @@ Formulário
 \\ prova 2
 
 jQuery
-- [ ] Uso de seletores CSS - id, classe e tag
+- [x] Uso de seletores CSS - id, classe e tag
 - [ ] Uso de seletores CSS hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
-- [ ] Uso de seletores hierárquicos dinâmicos, ou seja, via métodos do JQuery - parent/children/next
+- [x] Uso de seletores hierárquicos dinâmicos, ou seja, via métodos do JQuery - parent/children/next
 - [ ] Efeitos fade ou slide
 - [x] Especificar o tratador de algum evento para um elemento DOM via jQuery - deve ser um evento diferente do ready
 - [ ] Manipulação do CSS via função css() e addClass() ou removeClass()
@@ -84,7 +84,7 @@ jQuery
 
 Web Storage - LocalStorage ou SessionStorage
 - [x] Leitura e escrita de dados simples - dados primivos como string, number, boolean
-- [ ] Leitura e escrita de JSON - dado transformado a partir de um objeto
+- [x] Leitura e escrita de JSON - dado transformado a partir de um objeto
 - [ ] Criar e guardar um dado em um Cookie
 
 Requisições assíncronas

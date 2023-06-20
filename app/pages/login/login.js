@@ -4,8 +4,7 @@ function moveP()
     window.location.href = "/music-beat/app/pages/player/player.html";
 }
 
-
-
+ 
 function destacarCampo(campo) {
     campo.style.backgroundColor = "#FFFF99";
   }

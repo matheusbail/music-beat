@@ -6,13 +6,13 @@ function move() {
 		function Previous() {
 			window.history.back();
         }
-  
-$(document).ready(function(){
-    $('.carousel').carousel();
+   
+$(document).ready(function(){ 
+    $('.carousel').carousel(); // uso de class tag jquery
   });
    //arrow function para setar timeout no carousel
   setInterval(() => {
-    $('.carousel').carousel('next');
+    $('.carousel').carousel('next'); //uso de seletor next
   }, 2000);
 
   $("html").css("cursor: url('cursor url with protocol'), auto");
@@ -29,3 +29,10 @@ $(document).ready(function(){
     document.body.style.backgroundColor = 'DarkSlateGrey ';
     sessionStorage.backgroundColor ="DarkSlateGrey";
   });
+
+
+  function playAndPause(){
+    let mediaPlayer = document.getElementById("myPlayer");
+     mediaPlayer.play();
+  } 
+  

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/music-beat/assets/resources/styles/style.css"/>
+    <link rel="stylesheet" href="/music-beat/app/pages/player/player.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link rel="stylesheet" href="/node_modules/materialize-css/dist/css/materialize.css">
     <title>Player</title>
@@ -35,11 +36,22 @@
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
           <span class="card-title">SOM</span>
-          <p>REPRODUTOR.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/pt/2/2a/RageAgainstTheMachine.jpg">
+        <div class="">
+          <input type="range" min="1" value="5" max="100">
+        </div>
+        <div class="material-icons">volume_up</div>
+          <div class="audio-controls">
+            <button class="waves-effect btn-controls material-icons">arrow_back_ios</button>
+            <button onclick="playAndPause()" class="waves-effect btn-controls material-icons play-pause-btn">play_arrow</button>
+            <button class="waves-effect btn-controls material-icons">arrow_forward_ios</button>
+          </div>
+          <div class="material-icons">repeat</div>
         </div>
 
         <div class="card-action">
           <a href="#">Não funciona</a>
+          <a onclick="recuperarDados()">D</a>
           <a href="#">Spoilers</a>
         </div>
       </div>
@@ -62,9 +74,12 @@
     <script src="/music-beat/assets/libraries/jquery/jquery.mask.js"></script>
     <script src="/node_modules/materialize-css/dist/js/materialize.js"></script>
     <script src="/music-beat/assets/resources/scripts/index.js"></script>
+    
     <script type="module" src="/music-beat/app/pages/player/player.js"></script>
+    
    <script type="module" src="/music-beat/app/pages/player/user.js"></script>
   </div>
 </div>
+<audio src="audio/1.mp3" id="myPlayer" class="hide" controls></audio>
 </body>
 </html>
