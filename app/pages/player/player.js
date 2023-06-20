@@ -1,6 +1,7 @@
 "use strict"
 import { UserData } from './user.js';
 
+
 // funcao anonima, e confirm
 (function() {
   let nome = confirm('Voce gostaria de receber as novidades de musicas?');}());
@@ -26,11 +27,13 @@ mensagemNaTela();
 
 
 function recuperarDados() {
+  
   let dadosString = localStorage.getItem("dados");
   let dados = JSON.parse(dadosString);
+  let user = new UserData(dados.email,dados.senha);
   let email = dados.email;
   let senha = dados.senha;
-  let user = new UserData(dados.email,dados.senha);
+  
   user.teste();
 
   // imprime na tela 
@@ -45,3 +48,6 @@ let color = sessionStorage.backgroundColor;
   if(color){
     document.body.style.backgroundColor = color;
   }
+
+
+
