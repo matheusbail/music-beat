@@ -33,6 +33,11 @@ $(document).ready(function(){
 
   function playAndPause(){
     let mediaPlayer = document.getElementById("myPlayer");
-     mediaPlayer.play();
+    if(mediaPlayer.paused == true){ 
+      mediaPlayer.play();
+    }
+    else {
+      mediaPlayer.pause();
+    }
   } 
   
