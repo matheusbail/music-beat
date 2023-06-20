@@ -33,8 +33,10 @@ $(document).ready(function(){
 
   function playAndPause(){
     let mediaPlayer = document.getElementById("myPlayer");
+    let playAndPauseBtn = document.getElementById("playAndPauseBtn")
     if(mediaPlayer.paused == true){ 
       mediaPlayer.play();
+      playAndPauseBtn.innerText="pause"
     }
     else {
       mediaPlayer.pause();
