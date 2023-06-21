@@ -76,10 +76,10 @@ jQuery
 - [x] Uso de seletores CSS - id, classe e tag
 - [ ] Uso de seletores CSS hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
 - [x] Uso de seletores hierárquicos dinâmicos, ou seja, via métodos do JQuery - parent/children/next
-- [ ] Efeitos fade ou slide
-- [x] Especificar o tratador de algum evento para um elemento DOM via jQuery - deve ser um evento diferente do ready
+- [x] Efeitos fade ou slide
+- [] Especificar o tratador de algum evento para um elemento DOM via jQuery - deve ser um evento diferente do ready
 - [ ] Manipulação do CSS via função css() e addClass() ou removeClass()
-- [ ] Manipulação do conteúdo de um input e div usando jQuery
+- [x] Manipulação do conteúdo de um input e div usando jQuery
 - [x] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
 
 Web Storage - LocalStorage ou SessionStorage
@@ -89,7 +89,7 @@ Web Storage - LocalStorage ou SessionStorage
 
 Requisições assíncronas
 - [ ] Requisições AJAX para uma implementação funcional do backend em ExpressJS na plataforma Node
-- [ ] (Obrigatório) Requisições AJAX para uma API Fake - JSON Server 
+- [x] (Obrigatório) Requisições AJAX para uma API Fake - JSON Server 
 - [ ] Requisições AJAX para uma API Rest pública qualquer (Busca CEP API ou IBGE API ou outra).
 
 \\ prova 3
