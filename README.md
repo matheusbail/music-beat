@@ -62,7 +62,7 @@ Qualidade do código
 Formulário
 - [x] Validação de formulário com onsubmit usando os métodos tradicionais - é a fase executada após a validação via HTML5
 - [x] Validação de formulário com HTML5 API
-- [ ] Customizar as mensagens nos balões de mensagem
+- [x] Customizar as mensagens nos balões de mensagem
 - [x] Usar os atributos de validação dos inputs - required ou type="email" ou outros
 - [x] Usar expressões regulares para validação - usar no atributo pattern do respectivo input
 - [x] Ler e escrever em elementos input com a propriedade value
@@ -77,7 +77,7 @@ jQuery
 - [ ] Uso de seletores CSS hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
 - [x] Uso de seletores hierárquicos dinâmicos, ou seja, via métodos do JQuery - parent/children/next
 - [x] Efeitos fade ou slide
-- [] Especificar o tratador de algum evento para um elemento DOM via jQuery - deve ser um evento diferente do ready
+- [ ] Especificar o tratador de algum evento para um elemento DOM via jQuery - deve ser um evento diferente do ready
 - [ ] Manipulação do CSS via função css() e addClass() ou removeClass()
 - [x] Manipulação do conteúdo de um input e div usando jQuery
 - [x] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)

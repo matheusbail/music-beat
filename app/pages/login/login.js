@@ -4,7 +4,7 @@ function moveP()
     window.location.href = "/music-beat/app/pages/player/player.html";
 }
 
- 
+  
 function destacarCampo(campo) {
     campo.style.backgroundColor = "#FFFF99";
   }
@@ -17,6 +17,14 @@ function destacarCampo(campo) {
 let runAlert = setTimeout(function(){
     window.alert('CUIDADO AO CLICAR EM POPUPS');
 },2000);
+
+
+function validate(frm){
+  if(frm.email.value == " " || frm.email.value == null ||frm.email.value < 3)
+    alert("O Campo não pode ser Vazio, por favor, preencha");
+    frm.email.focus();
+    return false;
+}
 
 function login() {
     let email = document.getElementById("email").value;
