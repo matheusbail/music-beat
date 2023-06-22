@@ -1,6 +1,14 @@
 "use strict"
 import { UserData } from './user.js';
 
+window.addEventListener("keydown", function(e) //funcao anonima com arg
+{
+      if(e.key === "+"){
+        alert("Seu Dispositivo esta com defeito");
+        
+      }
+})
+
 
 // funcao anonima, e confirm
 (function() {

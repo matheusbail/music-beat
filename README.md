@@ -7,7 +7,7 @@ Temporizadores
 - [x] setInterval
 - [x] setTimeout
 - [x] Funções
-- [ ] Função anônima com argumento
+- [x] Função anônima com argumento
 - [x] Função anônima sem argumento
 - [x] Função anônima com retorno
 - [x] Função auto-executável - não será aceita a mesma do Module Pattern
@@ -19,7 +19,7 @@ Temporizadores
 Eventos
 - [x] Evento de carregamento do documento - onload
 - [ ] Evento de movimento do mouse
-- [ ] Evento de teclado - usar charCode ou keyCode
+- [x] Evento de teclado - usar charCode ou keyCode
 - [x] Eventos de formulário - usar onfocus e onblur
 - [ ] Imprimir alguma propriedade/atributo do objeto event recebido como parâmetro na função tratadora de evento
 
