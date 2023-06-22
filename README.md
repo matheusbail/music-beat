@@ -85,7 +85,7 @@ jQuery
 Web Storage - LocalStorage ou SessionStorage
 - [x] Leitura e escrita de dados simples - dados primivos como string, number, boolean
 - [x] Leitura e escrita de JSON - dado transformado a partir de um objeto
-- [ ] Criar e guardar um dado em um Cookie
+- [x] Criar e guardar um dado em um Cookie
 
 Requisições assíncronas
 - [ ] Requisições AJAX para uma implementação funcional do backend em ExpressJS na plataforma Node

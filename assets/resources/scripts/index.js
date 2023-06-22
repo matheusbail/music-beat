@@ -18,11 +18,14 @@ $(document).ready(function(){
   $("html").css("cursor: url('cursor url with protocol'), auto");
 
   // prompt 
-  let promptUsuario = function() {
+  let promptUsuario = function(coValue, expiTime) {
     let nome = prompt("Qual é o seu nome?");
     alert(`Parabens, voce tem um otimo gosto musical, ${nome}!`);
+    const d = new Date();
+    d.setTime(d.getTime() + (expiTime*24*69*60*1000));
+    let expire = "expire=" + d.toUTCString();
+    document.cookie = nome + "=" + coValue + ";" + expire + ";path=/";
   };
-
   const theme = document.getElementById('theme');
 
   theme.addEventListener('click', function onClick(event) {
