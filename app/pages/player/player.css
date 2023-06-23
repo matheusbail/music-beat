@@ -6,3 +6,20 @@ height:50px; width:50px; border-radius:50%;
     height:80px;
     width:80px;
 }
+
+.caixa{
+    
+    display:flexbox;
+    width: 40%;
+    float: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:oblique;
+    font-size: x-large;
+}
+
+.removeBorder{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+       
+}
