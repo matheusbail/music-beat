@@ -1,7 +1,7 @@
 "use strict";
 function moveP() 
 {
-    window.location.href = "/music-beat/app/pages/player/player.html";
+    window.location.href = "/app/pages/player/player.html";
 }
 
   
@@ -45,13 +45,4 @@ function login() {
   if(color){
     document.body.style.backgroundColor = color;
   }
-
- /* function Valida(email){
-    let reEmail = new RegExp("^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$");
-    let ok = reEmail.exec(email.value);
-    if(!ok)window.alert(RegExp.input + " Email Invalido");
-    else 
-    window.alert("Okay");
-   
-  }*/
 

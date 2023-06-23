@@ -1,0 +1,9 @@
+{
+  "users":[
+          {
+      "id":1,
+      "email":"matheus@gmail.com",
+      "nomedeUsuario":"Matheus"
+          }
+  ]
+}
