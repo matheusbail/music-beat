@@ -47,4 +47,23 @@ $(document).ready(function(){
     }
   } 
 
-  
+  function toUser() 
+{
+    window.location.href = "/app/pages/user/user.html";
+}
+
+// funcao aninhada e funcao automatica criando div
+function mensagemNaTela() {
+  let mensagem = "Mensagem automática......checando servidor";
+
+  function listarMensagem() {
+    let div = document.createElement("div");
+    div.classList.add('msg');
+    div.textContent = mensagem;
+    document.body.appendChild(div);
+  }
+
+  setTimeout(listarMensagem, 1500);
+}
+
+mensagemNaTela();

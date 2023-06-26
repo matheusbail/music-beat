@@ -8,3 +8,7 @@ export class UserData{
         }
 }
 
+let color = sessionStorage.backgroundColor;
+  if(color){
+    document.body.style.backgroundColor = color;
+  }

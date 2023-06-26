@@ -76,7 +76,7 @@ jQuery
 - [x] Uso de seletores CSS - id, classe e tag
 - [ ] Uso de seletores CSS hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
 - [x] Uso de seletores hierárquicos dinâmicos, ou seja, via métodos do JQuery - parent/children/next
-- [x] Efeitos fade ou slide
+- [] Efeitos fade ou slide
 - [ ] Especificar o tratador de algum evento para um elemento DOM via jQuery - deve ser um evento diferente do ready
 - [ ] Manipulação do CSS via função css() e addClass() ou removeClass()
 - [x] Manipulação do conteúdo de um input e div usando jQuery
